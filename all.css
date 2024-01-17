@@ -1,0 +1,135 @@
+html, body, div, span, applet, object, iframe,h1, h2, h3, h4, h5, h6, p, blockquote, pre,a, abbr, acronym, address, big, cite, code,del, dfn, em, img, ins, kbd, q, s, samp,small, strike, strong, sub, sup, tt, var,b, u, i, center,
+dl, dt, dd, ol, ul, li,fieldset, form, label, legend,table, caption, tbody, tfoot, thead, tr, th, td,article,aside, canvas, details, embed,figure, figcaption, footer, header, hgroup,menu, nav, output, ruby, section, summary,time, mark, audio, video {margin: 0;padding: 0;border: 0;font-size: 100%;font: inherit;vertical-align: baseline;}
+/* HTML5 display-role reset for older browsers */article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {display: block;}body {line-height: 1;}ol, ul {list-style: none;}blockquote, q {quotes: none;}blockquote:before, blockquote:after,q:before, q:after {content: '';content: none;
+}table {border-collapse: collapse;border-spacing: 0;}
+
+/*  網頁檢視框線  */
+/* *{
+  outline:1px solid #000
+} */
+
+#wrapper{
+  font-family: 'Noto Sans TC', sans-serif;
+	width: 700px;
+	height: 600px;
+	position: relative;
+	background-color: #fff;
+	margin: 0 auto;
+}
+h3 {
+  text-align: center;
+  font-weight: bold;
+  font-size: 25px;
+  padding-top: 20px;
+  letter-spacing: 5px;
+}
+.restartClick {
+  cursor: pointer;
+  text-decoration: none;
+  color: #000;
+}
+#game{
+	top: 70px;
+	left: 51px;
+	width: 217px;
+	height: 166px;
+  display: none;
+}
+
+/* 展示圖 */
+#popUp{
+    top: 70px;
+    width: 95%;
+    height: auto;
+    display: none;
+    margin-left: 20px;
+}
+#popUp img {
+  width: 100%;
+  border-radius: 5px;
+}
+#popUpHeadline{
+    left: 100px;
+    top: 11px;
+    width: 110px;
+    height: 60px;
+    color: #FFF;
+    font-family: "Arial";
+    font-size: 11pt;
+}
+#popUpBody{
+    top: 80px;
+    height: 104px;
+    padding: 0 5px;
+    color: #FFF;
+    font-family: "Arial";
+    line-height: 13px;
+    font-size: 10pt;
+    overflow: hidden;
+}
+
+.cardWrapper{
+}
+.card{
+}
+.front{
+  background-color: #CECECE;
+  font-family: "Arial";
+  border-radius: 5px;
+}
+.front img {
+  width: 101%;
+  border-radius: 5px;
+}
+.front p{
+  width: 100%;
+  text-align: center;
+}
+.back{
+  border-radius: 5px;
+}
+.back img {
+  width: 100%;
+  border-radius: 5px;
+}
+.back p{
+  width: 100%;
+  text-align: center;
+}
+.pic-left {
+  float: left;
+  position: relative;
+}
+.pic-right {
+  float: right;
+  position: relative;
+}
+.pic {
+  width: 230px;
+  height: auto;
+  position: absolute;
+}
+.pic1 {
+  top: 60px;
+  left: 10px;
+}
+.pic2 {
+  top: 240px;
+  left: 10px;
+}
+.pic3 {
+  top: 420px;
+  left: 10px;
+}
+.pic4 {
+  top: 60px;
+  right: 10px;
+}
+.pic5 {
+  top: 240px;
+  right: 10px;
+}
+.pic6 {
+  top: 420px;
+  right: 10px;
+}
